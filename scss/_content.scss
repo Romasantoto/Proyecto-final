@@ -5,9 +5,10 @@ p{
 	line-height: 26px;
 	letter-spacing: 1px;
 	word-spacing: 4px;
+	text-align: justify;
 	font-family: 'Raleway', sans-serif;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 section	p em{
@@ -16,4 +17,6 @@ section	p em{
 section fieldset legend {
 	color: red;
 }
-
+p.centrado{
+	text-align: center;
+}

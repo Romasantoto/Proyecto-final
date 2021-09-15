@@ -1,11 +1,14 @@
 h1 {
-  color: firebrick; }
+  color: black;
+  font-weight: bold; }
 
 h2 {
-  color: sienna; }
+  color: black;
+  font-weight: bold; }
 
 h3 {
-  color: #E107AB; }
+  color: black;
+  font-weight: bold; }
 
 #botonera {
   color: black; }
@@ -31,6 +34,9 @@ nav a {
   text-decoration: none;
   font-family: sans-serif;
   font-size: 1em; }
+
+p {
+  font-weight: bold; }
 
 /* selectores de clase */
 .textcenter {
@@ -65,15 +71,19 @@ p {
   line-height: 26px;
   letter-spacing: 1px;
   word-spacing: 4px;
+  text-align: justify;
   font-family: 'Raleway', sans-serif;
-  margin-left: 30%;
-  margin-right: 30%; }
+  margin-left: 20%;
+  margin-right: 20%; }
 
 section p em {
   color: blue; }
 
 section fieldset legend {
   color: red; }
+
+p.centrado {
+  text-align: center; }
 
 footer {
   text-decoration: none;
